@@ -27,7 +27,7 @@ export default function Header() {
 
 
 
-            <div className="relative flex items-center justify-center md:justify-between px-6 md:px-16 py-4">
+            <div className="relative flex items-center justify-center px-6 md:px-16 py-4">
     
                 <div className="hidden md:block text-white/80 font-semibold">
                 
@@ -37,7 +37,7 @@ export default function Header() {
                     <Link
                         href="/"
                         className={` hover:text-white px-2 py-1 rounded-3xl whitespace-nowrap border-2 border-transparent 
-                        ${path == " " ? "text-white" : "text-white/60 hover:text-white"}
+                        ${path == "/" ? "text-white" : "text-white/60 hover:text-white"}
                         transition-all duration-300 `}
                     >
                         Accueil
@@ -55,7 +55,7 @@ export default function Header() {
                     <Link
                         href="/projects"
                         className={` hover:text-white px-2 py-1 rounded-3xl whitespace-nowrap border-2 border-transparent
-                        ${path.startsWith(" /project") ? "text-white" : "text-white/60 hover:text-white"}
+                        ${path.startsWith("/project") ? "text-white" : "text-white/60 hover:text-white"}
                         transition-all duration-300 `}
                     >
                         Projects
