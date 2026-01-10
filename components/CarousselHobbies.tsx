@@ -174,7 +174,7 @@ export default function CarousselHobbies() {
                             }} 
                         >
                             <Image
-                                src={arrowLeft}
+                                src="/assets/images/left-arrow-svgrepo-com.svg"
                                 alt="Project"
                                 width={24}
                                 height={24}
@@ -188,7 +188,7 @@ export default function CarousselHobbies() {
                                     setIndex((i) => Math.min(i + 1, slides.length - 1)) 
                                 }} 
                             ><Image
-                                src={arrowRight}
+                                src="/assets/images/right-arrow-svgrepo-com.svg"
                                 width={24}
                                 height={24}
                                 alt="Project"
