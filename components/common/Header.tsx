@@ -28,10 +28,6 @@ export default function Header() {
 
 
             <div className="relative flex items-center justify-center px-6 md:px-16 py-4">
-    
-                <div className="hidden md:block text-white/80 font-semibold">
-                
-                </div>
 
                 <nav className="flex space-x-8 rounded-3xl px-2 py-1 bg-white/10 backdrop-blur-md border border-white/20 shadow-lg shadow-black/10 transition-all duration-300">
                     <Link
@@ -62,7 +58,6 @@ export default function Header() {
                     </Link>
                 </nav>
 
-                <div className="hidden md:block w-[120px]" />
             </div>
 
         </header>

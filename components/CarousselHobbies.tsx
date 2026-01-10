@@ -31,7 +31,7 @@ export default function CarousselHobbies() {
         },
         {
             images: [
-            { title:"Voyage",src: "/assets/images/travel.jpg", alt: "Travel" },
+            { title:"Voyage",src: "/assets/images/travel.jpeg", alt: "Travel" },
             { title:"Musculation",src: "/assets/images/sports.jpg", alt: "Sports" },
             ],
         },
