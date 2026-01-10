@@ -1,11 +1,10 @@
-import { bc2, btp, gk } from "@/public/assets/images";
 import { inspirations } from "@/types/inpirations";
 
 export const inspirationsPersonality:inspirations[] =[
         {
             title:"le déclic",
             image:{
-                src:bc2,
+                src:"/portfolio/assets/images/bc2.jpg",
                 alt:"BenjaminCode"
             },
             text:<>
@@ -20,7 +19,7 @@ export const inspirationsPersonality:inspirations[] =[
         {
             title:"l'apprentissage",
             image:{
-                src:gk,
+                src:"/portfolio/assets/images/gk.jpg",
                 alt:"Grafikart"
             },
             text: <>
@@ -38,7 +37,7 @@ export const inspirationsPersonality:inspirations[] =[
         {
             title:"la découverte",
             image:{
-                src:btp,
+                src:"/portfolio/assets/images/btp.jpg",
                 alt:"Black thorn prod"
             },
             text: <>

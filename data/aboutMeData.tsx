@@ -1,22 +1,11 @@
 import { TimelineItemData } from "@/types/timeline";
 
-import { 
-    bf ,
-    coding,
-    travel,
-    movie,
-    sports,
-    basketBall,
-    pythonBanner,
-    army,
-    univ
-} from "@/public/assets/images";
 export const timelineItemData: TimelineItemData[] = [
   {
     title: "Développeur Full-Stack - Ministère des armées",
     period: "2024 – 2026",
     image: {
-      src: army,
+      src: "/portfolio/assets/images/army.jpg",
       alt: "ministère des armées"
     },
     summary: (
@@ -40,7 +29,7 @@ export const timelineItemData: TimelineItemData[] = [
     title: "BUT Informatique - Lannion",
     period: "2023 – 2026",
     image: {
-      src: univ,
+      src: "/portfolio/assets/images/univ-rennes.webp",
       alt: "BUT informatique"
     },
     summary: (
@@ -65,7 +54,7 @@ export const timelineItemData: TimelineItemData[] = [
     title: "Premier projet Informatique",
     period: "2021",
     image: {
-      src: pythonBanner,
+      src: "/portfolio/assets/images/python.png",
       alt: "Projet informatique"
     },
     summary: (

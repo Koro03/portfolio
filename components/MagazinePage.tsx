@@ -1,19 +1,6 @@
 "use client"
 
 import Image from "next/image";
-import {
-    bf,
-    coding,
-    travel,
-    movie,
-    sports,
-    basketBall,
-    pythonBanner,
-    army,
-    univ
-} from "@/public/assets/images";
-import { ReactNode, useState } from "react";
-import { AnimatePresence, motion } from "motion/react";
 import { inspirations } from "@/types/inpirations";
 
 export default function MagazinePage({

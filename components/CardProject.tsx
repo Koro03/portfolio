@@ -1,7 +1,4 @@
 import Image from "next/image";
-import { 
-    clock
-} from "@/public/assets/images";
 import Link from "next/link";
 import { CardProjectInfo } from "@/types/project";
 
@@ -55,7 +52,7 @@ export default function CardProject({project}:{project:CardProjectInfo}) {
                 <div className="flex mt-4 justify-between">
                     <div className="flex items-center ">
                         <Image 
-                                src="/assets/images/clock-two-svgrepo-com.svg.jpg"
+                                src="/portfolio/assets/images/clock-two-svgrepo-com.svg.jpg"
                                 alt="time"
                                 width={24}
                                 height={24}

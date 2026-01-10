@@ -1,16 +1,6 @@
 import Header from "@/components/common/Header";
 import Image from "next/image";
-import { 
-    bf ,
-    coding,
-    travel,
-    movie,
-    sports,
-    basketBall,
-    pythonBanner,
-    army,
-    univ
-} from "@/public/assets/images";
+
 import Timeline from "@/components/Timeline";
 import CarousselHobbies from "@/components/CarousselHobbies";
 import MagazineInspirations from "@/components/MagazineInspirations";
@@ -33,7 +23,7 @@ export default function AboutMe() {
           <div className="w-full max-w-sm flex">
             <div className="relative w-full h-full min-h-[300px] overflow-hidden rounded-xl">
               <Image
-                src="/assets/images/bf.jpg"
+                src="/portfolio/assets/images/bf.jpg"
                 alt="Photo de profil"
                 fill
                 className="object-cover"
@@ -84,7 +74,7 @@ export default function AboutMe() {
               >
               {/* Image */}
               <Image
-                src="/assets/images/movie.jpg"
+                src="/portfolio/assets/images/movie.jpg"
                 fill
                 className="object-cover"
                 alt="Cinéma"
@@ -153,7 +143,7 @@ export default function AboutMe() {
                 dark:border-white/30  
                 dark:bg-white/15"
             >
-              <Image src="/assets/images/travel.jpeg" fill className="object-cover" alt="" />
+              <Image src="/portfolio/assets/images/travel.jpeg" fill className="object-cover" alt="" />
 
               <div
                 className="
@@ -216,7 +206,7 @@ export default function AboutMe() {
                 dark:border-white/30  
                 dark:bg-white/15"
             >
-              <Image src="/assets/images/baketball.jpg" fill className="object-cover" alt="" />
+              <Image src="/portfolio/assets/images/baketball.jpg" fill className="object-cover" alt="" />
 
               <div
                 className="
@@ -280,7 +270,7 @@ export default function AboutMe() {
                 dark:border-white/30  
                 dark:bg-white/15"
             >
-              <Image src="/assets/images/sports.jpg" fill className="object-cover" alt="" />
+              <Image src="/portfolio/assets/images/sports.jpg" fill className="object-cover" alt="" />
 
               <div
                 className="
@@ -346,7 +336,7 @@ export default function AboutMe() {
             >
               {/* Image */}
               <Image
-                src="/assets/images/coding.jpg"
+                src="/portfolio/assets/images/coding.jpg"
                 fill
                 className="object-cover"
                 alt="Développement"

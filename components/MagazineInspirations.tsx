@@ -1,18 +1,7 @@
 "use client"
 
 import Image from "next/image";
-import { 
-    bc2 ,
-    coding,
-    travel,
-    movie,
-    sports,
-    basketBall,
-    pythonBanner,
-    army,
-    univ,gk,bf,btp
 
-} from "@/public/assets/images";
 import { ReactNode, useState } from "react";
 import { AnimatePresence,motion } from "motion/react";
 import MagazinePage from "./MagazinePage";

@@ -1,30 +1,6 @@
 "use client"
 
 import Image from "next/image";
-import { 
-    react,
-    tailwind,
-    bc,
-    btp,
-    gk,
-    github,
-    mail,
-    js,
-    c,
-    figma,
-    cSharp,
-    php,
-    symfony,
-    ts,
-    bf ,
-    coding,
-    travel,
-    movie,
-    sports,
-    basketBall,
-    arrowLeft,
-    arrowRight
-} from "@/public/assets/images";
 import { useState } from "react";
 import { AnimatePresence,motion } from "motion/react";
 
@@ -44,19 +20,19 @@ export default function CarousselHobbies() {
     const slides: HobbySlide[] = [
         {
             images: [
-            { title:"Cinéma", src: movie.src, alt: "Movie" },
-            { title:"Développement",src: coding.src, alt: "Coding" },
+            { title:"Cinéma", src: "/portfolio/assets/images/movie.jpg", alt: "Movie" },
+            { title:"Développement",src: "/portfolio/assets/images/coding.jpg", alt: "Coding" },
             ],
         },
         {
             images: [
-            { title:"Basket-ball",src: basketBall.src, alt: "Basketball" },
+            { title:"Basket-ball",src: "/portfolio/assets/images/basketBall.jpg", alt: "Basketball" },
             ],
         },
         {
             images: [
-            { title:"Voyage",src: travel.src, alt: "Travel" },
-            { title:"Musculation",src: sports.src, alt: "Sports" },
+            { title:"Voyage",src: "/portfolio/assets/images/travel.jpg", alt: "Travel" },
+            { title:"Musculation",src: "/portfolio/assets/images/sports.jpg", alt: "Sports" },
             ],
         },
         ]
@@ -174,7 +150,7 @@ export default function CarousselHobbies() {
                             }} 
                         >
                             <Image
-                                src="/assets/images/left-arrow-svgrepo-com.svg"
+                                src="/portfolio/assets/images/left-arrow-svgrepo-com.svg"
                                 alt="Project"
                                 width={24}
                                 height={24}
@@ -188,7 +164,7 @@ export default function CarousselHobbies() {
                                     setIndex((i) => Math.min(i + 1, slides.length - 1)) 
                                 }} 
                             ><Image
-                                src="/assets/images/right-arrow-svgrepo-com.svg"
+                                src="/portfolio/assets/images/right-arrow-svgrepo-com.svg"
                                 width={24}
                                 height={24}
                                 alt="Project"

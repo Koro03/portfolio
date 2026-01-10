@@ -1,10 +1,5 @@
 import Header from "@/components/common/Header";
 import Image from "next/image";
-import { 
-
-  bf ,
-
-} from "@/public/assets/images";
 import CardProject from "@/components/CardProject";
 import CarousselSchoolProjetcs from "@/components/CarousselSchoolProjetcs";
 import Footer from "@/components/common/Footer";
@@ -25,7 +20,7 @@ export default function Project() {
           <div className="w-full max-w-sm flex">
             <div className="relative w-full h-full min-h-[300px] overflow-hidden rounded-xl">
               <Image
-                src="/assets/images/bf.jpg"
+                src="/portfolio/assets/images/bf.jpg"
                 alt="Photo de profil"
                 fill
                 className="object-cover"

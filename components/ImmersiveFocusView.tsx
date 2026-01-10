@@ -1,23 +1,6 @@
 "use client"
 
 import { ReactNode, useEffect } from "react"
-import { 
-    react,
-    tailwind,
-    bc,
-    btp,
-    gk,
-    github,
-    mail,
-    js,
-    c,
-    figma,
-    cSharp,
-    php,
-    symfony,
-    ts,
-    bf 
-} from "@/public/assets/images";
 import Image from "next/image"
 import { motion } from "motion/react";
 import { TimelineItemData } from "@/types/timeline";
