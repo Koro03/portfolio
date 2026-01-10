@@ -28,7 +28,7 @@ export default function HomeMobile() {
                 >
                     {/* IMAGE */}
                     <Image
-                        src=" /assets/images/bf.jpg"
+                        src=" /assets/images/Fauchet_Benjamin.jpg"
                         alt="Photo Benjamin Fauchet"
                         fill
                         className="object-cover object-[center_30%] md:object-center "
@@ -194,7 +194,7 @@ export default function HomeMobile() {
                     </li>
                     <li className="flex items-center space-x-2">
                         <Image
-                            src=" /assets/images/typescript-svgrepo-com.svg"
+                            src=" /assets/images/typescript-icon-svgrepo-com.svg"
                             alt="Tailwind logo"
                             width={32}
                             height={32}
@@ -286,7 +286,7 @@ export default function HomeMobile() {
                     </li>
                     <li className="flex items-center space-x-2">
                         <Image
-                            src=" /assets/images/typescript-svgrepo-com.svg"
+                            src=" /assets/images/typescript-icon-svgrepo-com.svg"
                             alt="Tailwind logo"
                             width={32}
                             height={32}
@@ -378,7 +378,7 @@ export default function HomeMobile() {
                     </li>
                     <li className="flex items-center space-x-2">
                         <Image
-                            src=" /assets/images/typescript-svgrepo-com.svg"
+                            src=" /assets/images/typescript-icon-svgrepo-com.svg"
                             alt="Tailwind logo"
                             width={32}
                             height={32}
@@ -474,7 +474,7 @@ export default function HomeMobile() {
                                     hover:bg-white/20"
                             >
                                 <Image
-                                    src=" /asset/images/bc.jpg"
+                                    src=" /assets/images/bc.jpg"
                                     alt="benjamin code"
                                     fill
                                     className="object-cover"

@@ -35,7 +35,7 @@ export default function Header() {
 
                 <nav className="flex space-x-8 rounded-3xl px-2 py-1 bg-white/10 backdrop-blur-md border border-white/20 shadow-lg shadow-black/10 transition-all duration-300">
                     <Link
-                        href=" "
+                        href="/"
                         className={` hover:text-white px-2 py-1 rounded-3xl whitespace-nowrap border-2 border-transparent 
                         ${path == " " ? "text-white" : "text-white/60 hover:text-white"}
                         transition-all duration-300 `}

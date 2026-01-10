@@ -25,7 +25,7 @@ export default function Project() {
           <div className="w-full max-w-sm flex">
             <div className="relative w-full h-full min-h-[300px] overflow-hidden rounded-xl">
               <Image
-                src=" /assets/images/bf.jpg"
+                src=" /assets/images/Fauchet_Benjamin.jpg"
                 alt="Photo de profil"
                 fill
                 className="object-cover"
