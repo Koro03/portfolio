@@ -5,10 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "predeploy": "npm run build",
     "start": "next start",
-    "lint": "eslint",
-    "deploy": "gh-pages -d out"
+    "lint": "eslint"
   },
   "dependencies": {
     "motion": "^12.23.26",
@@ -23,7 +21,6 @@
     "autoprefixer": "^10.4.23",
     "eslint": "^9",
     "eslint-config-next": "16.0.8",
-    "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.19",
     "typescript": "^5"
