@@ -4,7 +4,7 @@ export const inspirationsPersonality:inspirations[] =[
         {
             title:"le déclic",
             image:{
-                src:"/portfolio/assets/images/bc2.jpg",
+                src:"/assets/images/bc2.jpg",
                 alt:"BenjaminCode"
             },
             text:<>
@@ -19,7 +19,7 @@ export const inspirationsPersonality:inspirations[] =[
         {
             title:"l'apprentissage",
             image:{
-                src:"/portfolio/assets/images/gk.jpg",
+                src:"/assets/images/gk.jpg",
                 alt:"Grafikart"
             },
             text: <>
@@ -37,7 +37,7 @@ export const inspirationsPersonality:inspirations[] =[
         {
             title:"la découverte",
             image:{
-                src:"/portfolio/assets/images/btp.jpg",
+                src:"/assets/images/btp.jpg",
                 alt:"Black thorn prod"
             },
             text: <>
