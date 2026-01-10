@@ -41,7 +41,7 @@ export default function CarousselSchoolProjetcs() {
                     }} 
                 >
                     <Image
-                        src="/portfolio/assets/images/left-arrow-svgrepo-com.svg"
+                        src=" /assets/images/left-arrow-svgrepo-com.svg"
                         alt="Project"
                         width={24}
                         height={24}
@@ -55,7 +55,7 @@ export default function CarousselSchoolProjetcs() {
                             setIndex((i) => Math.min(i + 1, schoolProjects.length - 1)) 
                         }} 
                     ><Image
-                        src="/portfolio/assets/images/right-arrow-svgrepo-com.svg"
+                        src=" /assets/images/right-arrow-svgrepo-com.svg"
                         width={24}
                         height={24}
                         alt="Project"
@@ -74,7 +74,7 @@ export default function CarousselSchoolProjetcs() {
                                     <motion.div
                                         key={project.slug}
                                         layout
-                                        onClick={() => router.push(`/portfolio/projects/${project.slug}`)}
+                                        onClick={() => router.push(` /projects/${project.slug}`)}
                                         className={`min-w-[70%] h-125 rounded-xl overflow-hidden  ${
                                         isOld ? "absolute top-0 left-0" : "relative"
                                         }`}

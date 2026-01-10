@@ -41,7 +41,7 @@ export default function Home() {
                     >
                         {/* IMAGE */}
                         <Image
-                            src="/portfolio/assets/images/bf.jpg"
+                            src=" /assets/images/bf.jpg"
                             alt="Photo Benjamin Fauchet"
                             fill
                             className="object-cover object-[center_30%] md:object-center "
@@ -66,7 +66,7 @@ export default function Home() {
                         <div className="w-full flex flex-wrap gap-2 justify-between items-center">
                             <a href="mailto:benjamin.fauchet@yahoo.com" className="m-2 ">
                                 <Image
-                                    src="/portfolio/assets/images/letter-svgrepo-com.svg"
+                                    src=" /assets/images/letter-svgrepo-com.svg"
                                     alt="Mail to benjamin.fauchet@yahoo.com"
                                     width={32}
                                     height={32}
@@ -74,7 +74,7 @@ export default function Home() {
                                 </Image></a>
                             <a href="https:/www.linkedin.com/in/benjamin-fauchet-02a81b299" className="m-2 ">
                                 <Image
-                                    src="/portfolio/assets/images/linkedin-svgrepo-com.svg"
+                                    src=" /assets/images/linkedin-svgrepo-com.svg"
                                     alt="Linkedin Benjamin Fauchet"
                                     width={32}
                                     height={32}
@@ -83,7 +83,7 @@ export default function Home() {
                             </a>
                             <a href="https://github.com/Koro03" className="m-2 ">
                                 <Image
-                                    src="/portfolio/assets/images/github-svgrepo-com.svg"
+                                    src=" /assets/images/github-svgrepo-com.svg"
                                     alt="Github Benjamin Fauchet | Koro03"
                                     width={32}
                                     height={32}
@@ -164,7 +164,7 @@ export default function Home() {
                             <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
                                 <li className="flex items-center space-x-2">
                                     <Image
-                                        src="/portfolio/assets/images/react.png"
+                                        src=" /assets/images/react.png"
                                         alt="React logo"
                                         width={32}
                                         height={32}
@@ -174,7 +174,7 @@ export default function Home() {
                                 </li>
                                 <li className="flex items-center space-x-2">
                                     <Image
-                                        src="/portfolio/assets/images/Tailwind_CSS_Logo.svg.png"
+                                        src=" /assets/images/Tailwind_CSS_Logo.svg.png"
                                         alt="Tailwind logo"
                                         width={32}
                                         height={32}
@@ -184,7 +184,7 @@ export default function Home() {
                                 </li>
                                 <li className="flex items-center space-x-2">
                                     <Image
-                                        src="/portfolio/assets/images/php-svgrepo-com.svg"
+                                        src=" /assets/images/php-svgrepo-com.svg"
                                         alt="Tailwind logo"
                                         width={32}
                                         height={32}
@@ -194,7 +194,7 @@ export default function Home() {
                                 </li>
                                 <li className="flex items-center space-x-2">
                                     <Image
-                                        src="/portfolio/assets/images/js-svgrepo-com.svg"
+                                        src=" /assets/images/js-svgrepo-com.svg"
                                         alt="Tailwind logo"
                                         width={32}
                                         height={32}
@@ -204,7 +204,7 @@ export default function Home() {
                                 </li>
                                 <li className="flex items-center space-x-2">
                                     <Image
-                                        src="/portfolio/assets/images/typescript-svgrepo-com.svg"
+                                        src=" /assets/images/typescript-svgrepo-com.svg"
                                         alt="Tailwind logo"
                                         width={32}
                                         height={32}
@@ -214,7 +214,7 @@ export default function Home() {
                                 </li>
                                 <li className="flex items-center space-x-2">
                                     <Image
-                                        src="/portfolio/assets/images/c-1.svg"
+                                        src=" /assets/images/c-1.svg"
                                         alt="Tailwind logo"
                                         width={32}
                                         height={32}
@@ -224,7 +224,7 @@ export default function Home() {
                                 </li>
                                 <li className="flex items-center space-x-2">
                                     <Image
-                                        src="/portfolio/assets/images/c--4.svg"
+                                        src=" /assets/images/c--4.svg"
                                         alt="Tailwind logo"
                                         width={32}
                                         height={32}
@@ -234,7 +234,7 @@ export default function Home() {
                                 </li>
                                 <li className="flex items-center space-x-2">
                                     <Image
-                                        src="/portfolio/assets/images/symfony-svgrepo-com.svg"
+                                        src=" /assets/images/symfony-svgrepo-com.svg"
                                         alt="Tailwind logo"
                                         width={32}
                                         height={32}
@@ -244,7 +244,7 @@ export default function Home() {
                                 </li>
                                 <li className="flex items-center space-x-2">
                                     <Image
-                                        src="/portfolio/assets/images/figma-svgrepo-com.svg"
+                                        src=" /assets/images/figma-svgrepo-com.svg"
                                         alt="Tailwind logo"
                                         width={32}
                                         height={32}
@@ -256,7 +256,7 @@ export default function Home() {
                             <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll" aria-hidden="true">
                                 <li className="flex items-center space-x-2">
                                     <Image
-                                        src="/portfolio/assets/images/react.png"
+                                        src=" /assets/images/react.png"
                                         alt="React logo"
                                         width={32}
                                         height={32}
@@ -266,7 +266,7 @@ export default function Home() {
                                 </li>
                                 <li className="flex items-center space-x-2">
                                     <Image
-                                        src="/portfolio/assets/images/Tailwind_CSS_Logo.svg.png"
+                                        src=" /assets/images/Tailwind_CSS_Logo.svg.png"
                                         alt="Tailwind logo"
                                         width={32}
                                         height={32}
@@ -276,7 +276,7 @@ export default function Home() {
                                 </li>
                                 <li className="flex items-center space-x-2">
                                     <Image
-                                        src="/portfolio/assets/images/php-svgrepo-com.svg"
+                                        src=" /assets/images/php-svgrepo-com.svg"
                                         alt="Tailwind logo"
                                         width={32}
                                         height={32}
@@ -286,7 +286,7 @@ export default function Home() {
                                 </li>
                                 <li className="flex items-center space-x-2">
                                     <Image
-                                        src="/portfolio/assets/images/js-svgrepo-com.svg"
+                                        src=" /assets/images/js-svgrepo-com.svg"
                                         alt="Tailwind logo"
                                         width={32}
                                         height={32}
@@ -296,7 +296,7 @@ export default function Home() {
                                 </li>
                                 <li className="flex items-center space-x-2">
                                     <Image
-                                        src="/portfolio/assets/images/typescript-svgrepo-com.svg"
+                                        src=" /assets/images/typescript-svgrepo-com.svg"
                                         alt="Tailwind logo"
                                         width={32}
                                         height={32}
@@ -306,7 +306,7 @@ export default function Home() {
                                 </li>
                                 <li className="flex items-center space-x-2">
                                     <Image
-                                        src="/portfolio/assets/images/c-1.svg"
+                                        src=" /assets/images/c-1.svg"
                                         alt="Tailwind logo"
                                         width={32}
                                         height={32}
@@ -316,7 +316,7 @@ export default function Home() {
                                 </li>
                                 <li className="flex items-center space-x-2">
                                     <Image
-                                        src="/portfolio/assets/images/c--4.svg"
+                                        src=" /assets/images/c--4.svg"
                                         alt="Tailwind logo"
                                         width={32}
                                         height={32}
@@ -326,7 +326,7 @@ export default function Home() {
                                 </li>
                                 <li className="flex items-center space-x-2">
                                     <Image
-                                        src="/portfolio/assets/images/symfony-svgrepo-com.svg"
+                                        src=" /assets/images/symfony-svgrepo-com.svg"
                                         alt="Tailwind logo"
                                         width={32}
                                         height={32}
@@ -336,7 +336,7 @@ export default function Home() {
                                 </li>
                                 <li className="flex items-center space-x-2">
                                     <Image
-                                        src="/portfolio/assets/images/figma-svgrepo-com.svg"
+                                        src=" /assets/images/figma-svgrepo-com.svg"
                                         alt="Tailwind logo"
                                         width={32}
                                         height={32}
@@ -348,7 +348,7 @@ export default function Home() {
                             <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll" aria-hidden="true">
                                 <li className="flex items-center space-x-2">
                                     <Image
-                                        src="/portfolio/assets/images/react.png"
+                                        src=" /assets/images/react.png"
                                         alt="React logo"
                                         width={32}
                                         height={32}
@@ -358,7 +358,7 @@ export default function Home() {
                                 </li>
                                 <li className="flex items-center space-x-2">
                                     <Image
-                                        src="/portfolio/assets/images/Tailwind_CSS_Logo.svg.png"
+                                        src=" /assets/images/Tailwind_CSS_Logo.svg.png"
                                         alt="Tailwind logo"
                                         width={32}
                                         height={32}
@@ -368,7 +368,7 @@ export default function Home() {
                                 </li>
                                 <li className="flex items-center space-x-2">
                                     <Image
-                                        src="/portfolio/assets/images/php-svgrepo-com.svg"
+                                        src=" /assets/images/php-svgrepo-com.svg"
                                         alt="Tailwind logo"
                                         width={32}
                                         height={32}
@@ -378,7 +378,7 @@ export default function Home() {
                                 </li>
                                 <li className="flex items-center space-x-2">
                                     <Image
-                                        src="/portfolio/assets/images/js-svgrepo-com.svg"
+                                        src=" /assets/images/js-svgrepo-com.svg"
                                         alt="Tailwind logo"
                                         width={32}
                                         height={32}
@@ -388,7 +388,7 @@ export default function Home() {
                                 </li>
                                 <li className="flex items-center space-x-2">
                                     <Image
-                                        src="/portfolio/assets/images/typescript-svgrepo-com.svg"
+                                        src=" /assets/images/typescript-svgrepo-com.svg"
                                         alt="Tailwind logo"
                                         width={32}
                                         height={32}
@@ -398,7 +398,7 @@ export default function Home() {
                                 </li>
                                 <li className="flex items-center space-x-2">
                                     <Image
-                                        src="/portfolio/assets/images/c-1.svg"
+                                        src=" /assets/images/c-1.svg"
                                         alt="Tailwind logo"
                                         width={32}
                                         height={32}
@@ -408,7 +408,7 @@ export default function Home() {
                                 </li>
                                 <li className="flex items-center space-x-2">
                                     <Image
-                                        src="/portfolio/assets/images/c--4.svg"
+                                        src=" /assets/images/c--4.svg"
                                         alt="Tailwind logo"
                                         width={32}
                                         height={32}
@@ -418,7 +418,7 @@ export default function Home() {
                                 </li>
                                 <li className="flex items-center space-x-2">
                                     <Image
-                                        src="/portfolio/assets/images/symfony-svgrepo-com.svg"
+                                        src=" /assets/images/symfony-svgrepo-com.svg"
                                         alt="Tailwind logo"
                                         width={32}
                                         height={32}
@@ -428,7 +428,7 @@ export default function Home() {
                                 </li>
                                 <li className="flex items-center space-x-2">
                                     <Image
-                                        src="/portfolio/assets/images/figma-svgrepo-com.svg"
+                                        src=" /assets/images/figma-svgrepo-com.svg"
                                         alt="Tailwind logo"
                                         width={32}
                                         height={32}
@@ -454,7 +454,7 @@ export default function Home() {
                         "
                             >
                                 <Image
-                                    src="/portfolio/assets/images/apple_731985.jpg"
+                                    src=" /assets/images/apple_731985.jpg"
                                     alt="apple logo"
                                     fill
                                     className="object-contain "
@@ -474,7 +474,7 @@ export default function Home() {
                         hover:bg-white/20"
                             >
                                 <Image
-                                    src="/portfolio/assets/images/bc.jpg"
+                                    src=" /assets/images/bc.jpg"
                                     alt="benjamin code"
                                     fill
                                     className="object-cover"
@@ -494,7 +494,7 @@ export default function Home() {
                         hover:bg-white/20"
                             >
                                 <Image
-                                    src="/portfolio/assets/images/gk.jpg"
+                                    src=" /assets/images/gk.jpg"
                                     alt="grafikart"
                                     fill
                                     className="object-cover"
@@ -514,7 +514,7 @@ export default function Home() {
                         hover:bg-white/20"
                             >
                                 <Image
-                                    src="/portfolio/assets/images/btp.png"
+                                    src=" /assets/images/btp.png"
                                     alt="backthornprod"
                                     fill
                                     className="object-cover"

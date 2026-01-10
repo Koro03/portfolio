@@ -20,19 +20,19 @@ export default function CarousselHobbies() {
     const slides: HobbySlide[] = [
         {
             images: [
-            { title:"Cinéma", src: "/portfolio/assets/images/movie.jpg", alt: "Movie" },
-            { title:"Développement",src: "/portfolio/assets/images/coding.jpg", alt: "Coding" },
+            { title:"Cinéma", src: " /assets/images/movie.jpg", alt: "Movie" },
+            { title:"Développement",src: " /assets/images/coding.jpg", alt: "Coding" },
             ],
         },
         {
             images: [
-            { title:"Basket-ball",src: "/portfolio/assets/images/basketBall.jpg", alt: "Basketball" },
+            { title:"Basket-ball",src: " /assets/images/basketBall.jpg", alt: "Basketball" },
             ],
         },
         {
             images: [
-            { title:"Voyage",src: "/portfolio/assets/images/travel.jpg", alt: "Travel" },
-            { title:"Musculation",src: "/portfolio/assets/images/sports.jpg", alt: "Sports" },
+            { title:"Voyage",src: " /assets/images/travel.jpg", alt: "Travel" },
+            { title:"Musculation",src: " /assets/images/sports.jpg", alt: "Sports" },
             ],
         },
         ]
@@ -150,7 +150,7 @@ export default function CarousselHobbies() {
                             }} 
                         >
                             <Image
-                                src="/portfolio/assets/images/left-arrow-svgrepo-com.svg"
+                                src=" /assets/images/left-arrow-svgrepo-com.svg"
                                 alt="Project"
                                 width={24}
                                 height={24}
@@ -164,7 +164,7 @@ export default function CarousselHobbies() {
                                     setIndex((i) => Math.min(i + 1, slides.length - 1)) 
                                 }} 
                             ><Image
-                                src="/portfolio/assets/images/right-arrow-svgrepo-com.svg"
+                                src=" /assets/images/right-arrow-svgrepo-com.svg"
                                 width={24}
                                 height={24}
                                 alt="Project"
