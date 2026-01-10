@@ -6,9 +6,9 @@ import { useState } from "react"
 
 export default function CaroussselHomeBento() {
   const slides = [
-    { imagePath: " /assets/images/apache.png", alt: "Mockup 1" },
-    { imagePath: " /assets/images/mockup-loarwenn.png", alt: "Mockup 2" },
-    { imagePath: " /assets/images/mockup-c.png", alt: "Mockup 3" },
+    { imagePath: "/assets/images/apache.png", alt: "Mockup 1" },
+    { imagePath: "/assets/images/mockup-loarwenn.png", alt: "Mockup 2" },
+    { imagePath: "/assets/images/mockup-c.png", alt: "Mockup 3" },
   ]
 
   const [index, setIndex] = useState(0)

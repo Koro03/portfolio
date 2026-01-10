@@ -59,7 +59,7 @@ export const projects: Project[] = [
     title: "subCut",
     summary: "Outil en ligne de commande permettant de transformer n’importe quelle vidéo en format vertical type TikTok. Il supporte aussi bien les vidéos locales que celles provenant de YouTube. Le projet se concentre sur l’automatisation du découpage et du reformatage vidéo. Une solution rapide et efficace pour créer du contenu short-form.",
     mainImage: {
-      src: " /assets/images/mockup-subcut.png",
+      src: " /assets/images/mockup-subCut.png",
       width: 24,
       heigth: 24,
       alt: undefined

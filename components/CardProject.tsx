@@ -52,7 +52,7 @@ export default function CardProject({project}:{project:CardProjectInfo}) {
                 <div className="flex mt-4 justify-between">
                     <div className="flex items-center ">
                         <Image 
-                                src=" /assets/images/clock-two-svgrepo-com.svg.jpg"
+                                src=" /assets/images/clock-two-svgrepo-com.svg"
                                 alt="time"
                                 width={24}
                                 height={24}
