@@ -5,7 +5,7 @@ export const timelineItemData: TimelineItemData[] = [
     title: "Développeur Full-Stack - Ministère des armées",
     period: "2024 – 2026",
     image: {
-      src: " /assets/images/army.jpg",
+      src: "/assets/images/army.jpg",
       alt: "ministère des armées"
     },
     summary: (
@@ -29,7 +29,7 @@ export const timelineItemData: TimelineItemData[] = [
     title: "BUT Informatique - Lannion",
     period: "2023 – 2026",
     image: {
-      src: " /assets/images/univ-rennes.webp",
+      src: "/assets/images/univ-rennes.webp",
       alt: "BUT informatique"
     },
     summary: (
@@ -54,7 +54,7 @@ export const timelineItemData: TimelineItemData[] = [
     title: "Premier projet Informatique",
     period: "2021",
     image: {
-      src: " /assets/images/python.png",
+      src: "/assets/images/python.png",
       alt: "Projet informatique"
     },
     summary: (

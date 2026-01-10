@@ -41,7 +41,7 @@ export default function CarousselSchoolProjetcs() {
                     }} 
                 >
                     <Image
-                        src=" /assets/images/left-arrow-svgrepo-com.svg"
+                        src="/assets/images/left-arrow-svgrepo-com.svg"
                         alt="Project"
                         width={24}
                         height={24}
@@ -55,7 +55,7 @@ export default function CarousselSchoolProjetcs() {
                             setIndex((i) => Math.min(i + 1, schoolProjects.length - 1)) 
                         }} 
                     ><Image
-                        src=" /assets/images/right-arrow-svgrepo-com.svg"
+                        src="/assets/images/right-arrow-svgrepo-com.svg"
                         width={24}
                         height={24}
                         alt="Project"

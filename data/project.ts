@@ -7,7 +7,7 @@ export const projects: Project[] = [
     title: "wiki-app",
     summary: "Application mobile qui propose chaque jour un nouvel article Wikipédia à découvrir. Les utilisateurs peuvent liker leurs articles favoris et les retrouver facilement. L’application intègre également des quiz interactifs pour tester et améliorer ses connaissances. Un projet axé sur la découverte, l’apprentissage et l’engagement quotidien. ",
     mainImage: {
-      src: " /assets/images/mockup-expo.png",
+      src: "/assets/images/mockup-expo.png",
       width: undefined,
       heigth: undefined,
       alt: undefined
@@ -16,7 +16,7 @@ export const projects: Project[] = [
     technos: [
       {
         image: {
-          src: " /assets/images/react.png",
+          src: "/assets/images/react.png",
           width: 24,
           heigth: 24,
           alt: undefined
@@ -25,7 +25,7 @@ export const projects: Project[] = [
       },
       {
         image: {
-          src: " /assets/images/Tailwind_CSS_Logo.svg.png",
+          src: "/assets/images/Tailwind_CSS_Logo.svg.png",
           width: 24,
           heigth: 24,
           alt: undefined
@@ -34,7 +34,7 @@ export const projects: Project[] = [
       },
       {
         image: {
-          src: " /assets/images/expo-svgrepo-com.svg",
+          src: "/assets/images/expo-svgrepo-com.svg",
           width: 24,
           heigth: 24,
           alt: undefined
@@ -43,7 +43,7 @@ export const projects: Project[] = [
       },
       {
         image: {
-          src: " /assets/images/typescript-icon-svgrepo-com.svg",
+          src: "/assets/images/typescript-icon-svgrepo-com.svg",
           width: 24,
           heigth: 24,
           alt: undefined
@@ -59,7 +59,7 @@ export const projects: Project[] = [
     title: "subCut",
     summary: "Outil en ligne de commande permettant de transformer n’importe quelle vidéo en format vertical type TikTok. Il supporte aussi bien les vidéos locales que celles provenant de YouTube. Le projet se concentre sur l’automatisation du découpage et du reformatage vidéo. Une solution rapide et efficace pour créer du contenu short-form.",
     mainImage: {
-      src: " /assets/images/mockup-subCut.png",
+      src: "/assets/images/mockup-subCut.png",
       width: 24,
       heigth: 24,
       alt: undefined
@@ -68,7 +68,7 @@ export const projects: Project[] = [
     technos: [
       {
         image: {
-          src: " /assets/images/python-5.svg",
+          src: "/assets/images/python-5.svg",
           width: 24,
           heigth: 24,
           alt: undefined
@@ -85,7 +85,7 @@ export const projects: Project[] = [
     title: "transparent-bg",
     summary: "Application permettant de supprimer automatiquement l’arrière-plan d’une image. L’image finale est exportée avec un fond transparent, prête à être utilisée. Le projet met l’accent sur le traitement d’image et la simplicité d’utilisation. Idéal pour le e-commerce, le design ou les visuels marketing.",
     mainImage: {
-      src: " /assets/images/mockup-transparentBg.png",
+      src: "/assets/images/mockup-transparentBg.png",
       width: undefined,
       heigth: undefined,
       alt: undefined
@@ -94,7 +94,7 @@ export const projects: Project[] = [
     technos: [
       {
         image: {
-          src: " /assets/images/python-5.svg",
+          src: "/assets/images/python-5.svg",
           width: 24,
           heigth: 24,
           alt: undefined
@@ -109,7 +109,7 @@ export const projects: Project[] = [
     title: "loarwenn",
     summary: "Loarwenn est une application web de gestion d’annonces d’activités, pensée comme un équivalent de Tripadvisor. Elle permet de consulter, publier et gérer des annonces liées à des activités culturelles, sportives ou de loisirs. Le projet met l’accent sur la structuration des données, la gestion des utilisateurs et une séparation claire entre front-office et back-office. Il vise à proposer une expérience fluide aussi bien pour les visiteurs que pour les administrateurs. Loarwenn a été conçu dans un contexte de travail en équipe, avec une approche orientée projet réel.",
     mainImage: {
-      src: " /assets/images/mockup-loarwenn.png",
+      src: "/assets/images/mockup-loarwenn.png",
       width: undefined,
       heigth: undefined,
       alt: undefined
@@ -118,7 +118,7 @@ export const projects: Project[] = [
     technos: [
       {
         image: {
-          src: " /assets/images/php-svgrepo-com.svg",
+          src: "/assets/images/php-svgrepo-com.svg",
           width: 24,
           heigth: 24,
           alt: undefined
@@ -127,7 +127,7 @@ export const projects: Project[] = [
       },
       {
         image: {
-          src: " /assets/images/js-svgrepo-com.svg",
+          src: "/assets/images/js-svgrepo-com.svg",
           width: 24,
           heigth: 24,
           alt: undefined
@@ -136,7 +136,7 @@ export const projects: Project[] = [
       },
       {
         image: {
-          src: " /assets/images/docker-svgrepo-com.svg",
+          src: "/assets/images/docker-svgrepo-com.svg",
           width: 24,
           heigth: 24,
           alt: undefined
@@ -145,7 +145,7 @@ export const projects: Project[] = [
       },
       {
         image: {
-          src: " /assets/images/postgresql-logo-svgrepo-com.svg",
+          src: "/assets/images/postgresql-logo-svgrepo-com.svg",
           width: 24,
           heigth: 24,
           alt: undefined
@@ -160,7 +160,7 @@ export const projects: Project[] = [
     title: "sudoku",
     summary: "Ce projet consiste en la réalisation d’un jeu de Sudoku en langage C, jouable directement en ligne de commande. Il propose plusieurs niveaux de difficulté et une gestion complète du déroulement d’une partie. L’objectif était de renforcer les bases du langage C à travers un projet concret et structuré. Le projet met l’accent sur la logique, la gestion mémoire et la robustesse du programme. Il s’agit d’un excellent exercice pour comprendre les fondements de la programmation bas niveau.",
     mainImage: {
-      src: " /assets/images/mockup-c.png",
+      src: "/assets/images/mockup-c.png",
       width: undefined,
       heigth: undefined,
       alt: undefined
@@ -169,7 +169,7 @@ export const projects: Project[] = [
     technos: [
       {
         image: {
-          src: " /assets/images/c-1.svg",
+          src: "/assets/images/c-1.svg",
           width: 24,
           heigth: 24,
           alt: undefined
@@ -184,13 +184,13 @@ export const projects: Project[] = [
     title: "reseaux et web",
     summary: "Ce projet porte sur la mise en place complète d’un serveur web sécurisé. Il vise à comprendre le fonctionnement d’un serveur Apache et les enjeux liés à la sécurité réseau. L’accent a été mis sur la gestion des erreurs, la protection contre les attaques et l’administration du serveur. Le projet aborde à la fois les aspects techniques et les bonnes pratiques en production. Il permet de mieux comprendre les fondements de l’hébergement web",
     mainImage: {
-      src: " /assets/images/foundation_highres.png",
+      src: "/assets/images/foundation_highres.png",
       width: undefined,
       heigth: undefined,
       alt: undefined
     },
     verticalImage:{
-      src:" /assets/images/foundation_highres_crop.png",
+      src:"/assets/images/foundation_highres_crop.png",
       width: undefined,
       heigth: undefined,
       alt: undefined
@@ -199,7 +199,7 @@ export const projects: Project[] = [
     technos: [
       {
         image: {
-          src: " /assets/images/debian-svgrepo-com.svg",
+          src: "/assets/images/debian-svgrepo-com.svg",
           width: 24,
           heigth: 24,
           alt: undefined
@@ -208,7 +208,7 @@ export const projects: Project[] = [
       },
       {
         image: {
-          src: " /assets/images/apache-svgrepo-com.svg",
+          src: "/assets/images/apache-svgrepo-com.svg",
           width: 24,
           heigth: 24,
           alt: undefined
@@ -217,7 +217,7 @@ export const projects: Project[] = [
       },
       {
         image: {
-          src: " /assets/images/virtualBox.png",
+          src: "/assets/images/virtualBox.png",
           width: 24,
           heigth: 24,
           alt: undefined
