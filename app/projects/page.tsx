@@ -13,6 +13,11 @@ export default function Project() {
 
   return (
     <div className="flex flex-col min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+      
+      <div className="bg-red-500 text-white p-10 text-3xl">
+        TAILWIND OK
+      </div>
+
       <Header></Header>
       <main className="flex flex-col min-h-screen w-full max-w-8xl flex-col items-center justify-between   bg-white dark:bg-black sm:items-start">
 
