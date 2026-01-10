@@ -206,7 +206,7 @@ export default function AboutMe() {
                 dark:border-white/30  
                 dark:bg-white/15"
             >
-              <Image src="/assets/images/baketBall.jpg" fill className="object-cover" alt="" />
+              <Image src="/assets/images/basketBall.jpg" fill className="object-cover" alt="" />
 
               <div
                 className="

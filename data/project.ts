@@ -9,7 +9,7 @@ export const projects: Project[] = [
     mainImage: {
       src: "/assets/images/mockup-expo.png",
       width: undefined,
-      heigth: undefined,
+      height: undefined,
       alt: undefined
     },
     time: "en cours",
@@ -18,7 +18,7 @@ export const projects: Project[] = [
         image: {
           src: "/assets/images/react.png",
           width: 24,
-          heigth: 24,
+          height: 24,
           alt: undefined
         },
         name: "react-native"
@@ -27,7 +27,7 @@ export const projects: Project[] = [
         image: {
           src: "/assets/images/Tailwind_CSS_Logo.svg.png",
           width: 24,
-          heigth: 24,
+          height: 24,
           alt: undefined
         },
         name: "tailwind"
@@ -36,7 +36,7 @@ export const projects: Project[] = [
         image: {
           src: "/assets/images/expo-svgrepo-com.svg",
           width: 24,
-          heigth: 24,
+          height: 24,
           alt: undefined
         },
         name: "expo"
@@ -45,7 +45,7 @@ export const projects: Project[] = [
         image: {
           src: "/assets/images/typescript-icon-svgrepo-com.svg",
           width: 24,
-          heigth: 24,
+          height: 24,
           alt: undefined
         },
         name: "typescript"
@@ -61,7 +61,7 @@ export const projects: Project[] = [
     mainImage: {
       src: "/assets/images/mockup-subCut.png",
       width: 24,
-      heigth: 24,
+      height: 24,
       alt: undefined
     },
     time: "4 jours",
@@ -70,7 +70,7 @@ export const projects: Project[] = [
         image: {
           src: "/assets/images/python-5.svg",
           width: 24,
-          heigth: 24,
+          height: 24,
           alt: undefined
         },
         name: "python"
@@ -87,7 +87,7 @@ export const projects: Project[] = [
     mainImage: {
       src: "/assets/images/mockup-transparentBg.png",
       width: undefined,
-      heigth: undefined,
+      height: undefined,
       alt: undefined
     },
     time: "2 jours",
@@ -96,7 +96,7 @@ export const projects: Project[] = [
         image: {
           src: "/assets/images/python-5.svg",
           width: 24,
-          heigth: 24,
+          height: 24,
           alt: undefined
         },
         name: "python"
@@ -111,7 +111,7 @@ export const projects: Project[] = [
     mainImage: {
       src: "/assets/images/mockup-loarwenn.png",
       width: undefined,
-      heigth: undefined,
+      height: undefined,
       alt: undefined
     },
     time: "1 mois",
@@ -120,7 +120,7 @@ export const projects: Project[] = [
         image: {
           src: "/assets/images/php-svgrepo-com.svg",
           width: 24,
-          heigth: 24,
+          height: 24,
           alt: undefined
         },
         name: "php"
@@ -129,7 +129,7 @@ export const projects: Project[] = [
         image: {
           src: "/assets/images/js-svgrepo-com.svg",
           width: 24,
-          heigth: 24,
+          height: 24,
           alt: undefined
         },
         name: "javascript"
@@ -138,7 +138,7 @@ export const projects: Project[] = [
         image: {
           src: "/assets/images/docker-svgrepo-com.svg",
           width: 24,
-          heigth: 24,
+          height: 24,
           alt: undefined
         },
         name: "docker"
@@ -147,7 +147,7 @@ export const projects: Project[] = [
         image: {
           src: "/assets/images/postgresql-logo-svgrepo-com.svg",
           width: 24,
-          heigth: 24,
+          height: 24,
           alt: undefined
         },
         name: "postgresql"
@@ -162,7 +162,7 @@ export const projects: Project[] = [
     mainImage: {
       src: "/assets/images/mockup-c.png",
       width: undefined,
-      heigth: undefined,
+      height: undefined,
       alt: undefined
     },
     time: "2 mois",
@@ -171,7 +171,7 @@ export const projects: Project[] = [
         image: {
           src: "/assets/images/c-1.svg",
           width: 24,
-          heigth: 24,
+          height: 24,
           alt: undefined
         },
         name: "C"
@@ -186,13 +186,13 @@ export const projects: Project[] = [
     mainImage: {
       src: "/assets/images/foundation_highres.png",
       width: undefined,
-      heigth: undefined,
+      height: undefined,
       alt: undefined
     },
     verticalImage:{
       src:"/assets/images/foundation_highres_crop.png",
       width: undefined,
-      heigth: undefined,
+      height: undefined,
       alt: undefined
     },
     time: "2 semaine",
@@ -201,7 +201,7 @@ export const projects: Project[] = [
         image: {
           src: "/assets/images/debian-svgrepo-com.svg",
           width: 24,
-          heigth: 24,
+          height: 24,
           alt: undefined
         },
         name: "debian"
@@ -210,7 +210,7 @@ export const projects: Project[] = [
         image: {
           src: "/assets/images/apache-svgrepo-com.svg",
           width: 24,
-          heigth: 24,
+          height: 24,
           alt: undefined
         },
         name: "apache"
@@ -219,7 +219,7 @@ export const projects: Project[] = [
         image: {
           src: "/assets/images/virtualBox.png",
           width: 24,
-          heigth: 24,
+          height: 24,
           alt: undefined
         },
         name: "virtualBox"

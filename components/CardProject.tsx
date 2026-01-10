@@ -42,7 +42,7 @@ export default function CardProject({project}:{project:CardProjectInfo}) {
                                     src={techno.image.src}
                                     alt="React logo"
                                     width={techno.image.width}
-                                    height={techno.image.heigth}
+                                    height={techno.image.height}
                                     priority
                                 />
                                 <p className="ml-2">{techno.name}</p>
@@ -80,7 +80,7 @@ export default function CardProject({project}:{project:CardProjectInfo}) {
                         dark:border-white/30
                         dark:hover:bg-white/20
                             " 
-                        href={` /projects/${project.slug}`}
+                        href={`/projects/${project.slug}`}
                     >
                         Voir le projet →
                     </Link>

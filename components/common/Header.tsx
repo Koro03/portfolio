@@ -44,16 +44,16 @@ export default function Header() {
                     </Link>
 
                     <Link
-                        href=" /aboutMe"
+                        href="/aboutMe"
                         className={`hover:text-white px-2 py-1 rounded-3xl whitespace-nowrap border-2 border-transparent
-                        ${path == " /aboutMe" ? "text-white" : "text-white/60 hover:text-white"}
+                        ${path == "/aboutMe" ? "text-white" : "text-white/60 hover:text-white"}
                         transition-all duration-300 `}
                     >
                         About Me
                     </Link>
 
                     <Link
-                        href=" /projects"
+                        href="/projects"
                         className={` hover:text-white px-2 py-1 rounded-3xl whitespace-nowrap border-2 border-transparent
                         ${path.startsWith(" /project") ? "text-white" : "text-white/60 hover:text-white"}
                         transition-all duration-300 `}

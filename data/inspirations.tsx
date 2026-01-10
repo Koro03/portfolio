@@ -37,7 +37,7 @@ export const inspirationsPersonality:inspirations[] =[
         {
             title:"la découverte",
             image:{
-                src:"/assets/images/btp.jpg",
+                src:"/assets/images/btp.png",
                 alt:"Black thorn prod"
             },
             text: <>

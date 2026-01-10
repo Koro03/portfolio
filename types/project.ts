@@ -4,7 +4,7 @@ export type img ={
     src:string|StaticImport
     alt?:string
     width?:number
-    heigth?:number
+    height?:number
 }
 
 type techno = {
