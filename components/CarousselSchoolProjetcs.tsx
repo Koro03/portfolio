@@ -25,7 +25,7 @@ export default function CarousselSchoolProjetcs() {
 
     return (
 
-        <div className="flex flex-col md:flex-row gap-5">
+        <div className="flex flex-col md:flex-row gap-5 bg-black">
             <div className=" md:w-1/2 w-full">
               <p>Les projets d’études ont été essentiels dans mon apprentissage de l’informatique. 
                 Ils m’ont permis de confronter la théorie à des problématiques concrètes et de développer une réelle capacité d’analyse. 
