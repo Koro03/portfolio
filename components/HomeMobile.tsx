@@ -1,5 +1,23 @@
 import Image from "next/image"
 
+import {
+    react,
+    tailwind,
+    bc,
+    btp,
+    gk,
+    github,
+    mail,
+    js,
+    c,
+    figma,
+    cSharp,
+    php,
+    symfony,
+    ts,
+    bf,
+    linkedin, apple
+} from "@/public/assets/images";
 import CaroussselHomeBento from "./CarousselHomeBento";
 
 export default function HomeMobile() {
@@ -9,7 +27,7 @@ export default function HomeMobile() {
     return (
         <div className="w-full">
             <article className="py-4">
-
+                
 
                 <div className="
                 relative rounded-xl
@@ -28,7 +46,7 @@ export default function HomeMobile() {
                 >
                     {/* IMAGE */}
                     <Image
-                        src="/assets/images/Fauchet_Benjamin.jpg"
+                        src={bf}
                         alt="Photo Benjamin Fauchet"
                         fill
                         className="object-cover object-[center_30%] md:object-center "
@@ -154,7 +172,7 @@ export default function HomeMobile() {
                 <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
                     <li className="flex items-center space-x-2">
                         <Image
-                            src="/assets/images/react.png"
+                            src={react}
                             alt="React logo"
                             width={32}
                             height={32}
@@ -164,7 +182,7 @@ export default function HomeMobile() {
                     </li>
                     <li className="flex items-center space-x-2">
                         <Image
-                            src="/assets/images/Tailwind_CSS_Logo.svg.png"
+                            src={tailwind}
                             alt="Tailwind logo"
                             width={32}
                             height={32}
@@ -174,7 +192,7 @@ export default function HomeMobile() {
                     </li>
                     <li className="flex items-center space-x-2">
                         <Image
-                            src="/assets/images/php-svgrepo-com.svg"
+                            src={php}
                             alt="Tailwind logo"
                             width={32}
                             height={32}
@@ -184,7 +202,7 @@ export default function HomeMobile() {
                     </li>
                     <li className="flex items-center space-x-2">
                         <Image
-                            src="/assets/images/js-svgrepo-com.svg"
+                            src={js}
                             alt="Tailwind logo"
                             width={32}
                             height={32}
@@ -194,7 +212,7 @@ export default function HomeMobile() {
                     </li>
                     <li className="flex items-center space-x-2">
                         <Image
-                            src="/assets/images/typescript-icon-svgrepo-com.svg"
+                            src={ts}
                             alt="Tailwind logo"
                             width={32}
                             height={32}
@@ -204,7 +222,7 @@ export default function HomeMobile() {
                     </li>
                     <li className="flex items-center space-x-2">
                         <Image
-                            src="/assets/images/c-1.svg"
+                            src={c}
                             alt="Tailwind logo"
                             width={32}
                             height={32}
@@ -214,7 +232,7 @@ export default function HomeMobile() {
                     </li>
                     <li className="flex items-center space-x-2">
                         <Image
-                            src="/assets/images/c--4.svg"
+                            src={cSharp}
                             alt="Tailwind logo"
                             width={32}
                             height={32}
@@ -224,7 +242,7 @@ export default function HomeMobile() {
                     </li>
                     <li className="flex items-center space-x-2">
                         <Image
-                            src="/assets/images/symfony-svgrepo-com.svg"
+                            src={symfony}
                             alt="Tailwind logo"
                             width={32}
                             height={32}
@@ -234,7 +252,7 @@ export default function HomeMobile() {
                     </li>
                     <li className="flex items-center space-x-2">
                         <Image
-                            src="/assets/images/figma-svgrepo-com.svg"
+                            src={figma}
                             alt="Tailwind logo"
                             width={32}
                             height={32}
@@ -246,7 +264,7 @@ export default function HomeMobile() {
                 <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll" aria-hidden="true">
                     <li className="flex items-center space-x-2">
                         <Image
-                            src="/assets/images/react.png"
+                            src={react}
                             alt="React logo"
                             width={32}
                             height={32}
@@ -256,7 +274,7 @@ export default function HomeMobile() {
                     </li>
                     <li className="flex items-center space-x-2">
                         <Image
-                            src="/assets/images/Tailwind_CSS_Logo.svg.png"
+                            src={tailwind}
                             alt="Tailwind logo"
                             width={32}
                             height={32}
@@ -266,7 +284,7 @@ export default function HomeMobile() {
                     </li>
                     <li className="flex items-center space-x-2">
                         <Image
-                            src="/assets/images/php-svgrepo-com.svg"
+                            src={php}
                             alt="Tailwind logo"
                             width={32}
                             height={32}
@@ -276,7 +294,7 @@ export default function HomeMobile() {
                     </li>
                     <li className="flex items-center space-x-2">
                         <Image
-                            src="/assets/images/js-svgrepo-com.svg"
+                            src={js}
                             alt="Tailwind logo"
                             width={32}
                             height={32}
@@ -286,7 +304,7 @@ export default function HomeMobile() {
                     </li>
                     <li className="flex items-center space-x-2">
                         <Image
-                            src="/assets/images/typescript-icon-svgrepo-com.svg"
+                            src={ts}
                             alt="Tailwind logo"
                             width={32}
                             height={32}
@@ -296,7 +314,7 @@ export default function HomeMobile() {
                     </li>
                     <li className="flex items-center space-x-2">
                         <Image
-                            src="/assets/images/c-1.svg"
+                            src={c}
                             alt="Tailwind logo"
                             width={32}
                             height={32}
@@ -306,7 +324,7 @@ export default function HomeMobile() {
                     </li>
                     <li className="flex items-center space-x-2">
                         <Image
-                            src="/assets/images/c--4.svg"
+                            src={cSharp}
                             alt="Tailwind logo"
                             width={32}
                             height={32}
@@ -316,7 +334,7 @@ export default function HomeMobile() {
                     </li>
                     <li className="flex items-center space-x-2">
                         <Image
-                            src="/assets/images/symfony-svgrepo-com.svg"
+                            src={symfony}
                             alt="Tailwind logo"
                             width={32}
                             height={32}
@@ -326,7 +344,7 @@ export default function HomeMobile() {
                     </li>
                     <li className="flex items-center space-x-2">
                         <Image
-                            src="/assets/images/figma-svgrepo-com.svg"
+                            src={figma}
                             alt="Tailwind logo"
                             width={32}
                             height={32}
@@ -338,7 +356,7 @@ export default function HomeMobile() {
                 <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll" aria-hidden="true">
                     <li className="flex items-center space-x-2">
                         <Image
-                            src="/assets/images/react.png"
+                            src={react}
                             alt="React logo"
                             width={32}
                             height={32}
@@ -348,7 +366,7 @@ export default function HomeMobile() {
                     </li>
                     <li className="flex items-center space-x-2">
                         <Image
-                            src="/assets/images/Tailwind_CSS_Logo.svg.png"
+                            src={tailwind}
                             alt="Tailwind logo"
                             width={32}
                             height={32}
@@ -358,7 +376,7 @@ export default function HomeMobile() {
                     </li>
                     <li className="flex items-center space-x-2">
                         <Image
-                            src="/assets/images/php-svgrepo-com.svg"
+                            src={php}
                             alt="Tailwind logo"
                             width={32}
                             height={32}
@@ -368,7 +386,7 @@ export default function HomeMobile() {
                     </li>
                     <li className="flex items-center space-x-2">
                         <Image
-                            src="/assets/images/js-svgrepo-com.svg"
+                            src={js}
                             alt="Tailwind logo"
                             width={32}
                             height={32}
@@ -378,7 +396,7 @@ export default function HomeMobile() {
                     </li>
                     <li className="flex items-center space-x-2">
                         <Image
-                            src="/assets/images/typescript-icon-svgrepo-com.svg"
+                            src={ts}
                             alt="Tailwind logo"
                             width={32}
                             height={32}
@@ -388,7 +406,7 @@ export default function HomeMobile() {
                     </li>
                     <li className="flex items-center space-x-2">
                         <Image
-                            src="/assets/images/c-1.svg"
+                            src={c}
                             alt="Tailwind logo"
                             width={32}
                             height={32}
@@ -398,7 +416,7 @@ export default function HomeMobile() {
                     </li>
                     <li className="flex items-center space-x-2">
                         <Image
-                            src="/assets/images/c--4.svg"
+                            src={cSharp}
                             alt="Tailwind logo"
                             width={32}
                             height={32}
@@ -408,7 +426,7 @@ export default function HomeMobile() {
                     </li>
                     <li className="flex items-center space-x-2">
                         <Image
-                            src="/assets/images/symfony-svgrepo-com.svg"
+                            src={symfony}
                             alt="Tailwind logo"
                             width={32}
                             height={32}
@@ -418,7 +436,7 @@ export default function HomeMobile() {
                     </li>
                     <li className="flex items-center space-x-2">
                         <Image
-                            src="/assets/images/figma-svgrepo-com.svg"
+                            src={figma}
                             alt="Tailwind logo"
                             width={32}
                             height={32}
@@ -454,7 +472,7 @@ export default function HomeMobile() {
                                 "
                             >
                                 <Image
-                                    src="/assets/images/apple_731985.jpg"
+                                    src={apple}
                                     alt="apple logo"
                                     fill
                                     className="object-contain "
@@ -474,7 +492,7 @@ export default function HomeMobile() {
                                     hover:bg-white/20"
                             >
                                 <Image
-                                    src="/assets/images/bc.jpg"
+                                    src={bc}
                                     alt="benjamin code"
                                     fill
                                     className="object-cover"
@@ -494,7 +512,7 @@ export default function HomeMobile() {
                                             hover:bg-white/20"
                             >
                                 <Image
-                                    src="/assets/images/gk.jpg"
+                                    src={gk}
                                     alt="grafikart"
                                     fill
                                     className="object-cover"
@@ -514,7 +532,7 @@ export default function HomeMobile() {
                                             hover:bg-white/20"
                             >
                                 <Image
-                                    src="/assets/images/btp.png"
+                                    src={btp}
                                     alt="backthornprod"
                                     fill
                                     className="object-cover"

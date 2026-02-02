@@ -2,11 +2,11 @@
 
 import Image from "next/image"
 import { useState } from "react"
-
+import { mockupExpo } from "@/public/assets/images"
 
 export default function CaroussselHomeBento() {
   const slides = [
-    { imagePath: "/assets/images/apache.png", alt: "Mockup 1" },
+    { imagePath: mockupExpo.src, alt: "Mockup 1" },
     { imagePath: "/assets/images/mockup-loarwenn.png", alt: "Mockup 2" },
     { imagePath: "/assets/images/mockup-c.png", alt: "Mockup 3" },
   ]

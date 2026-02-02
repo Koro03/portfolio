@@ -1,7 +1,4 @@
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 
 
@@ -211,7 +208,4 @@ body {
     grid-row: auto !important;
     height: auto;
   }
-}
-.test{
-  background-color: red;
 }
