@@ -17,8 +17,8 @@ export default function CardProject({project}:{project:CardProjectInfo}) {
             rounded-xl 
             shadow-xl 
             border 
-            dark:border-white/30  
-            dark:bg-white/15 "
+             border-white/30  
+             bg-white/15 "
         >
             <div className="relative w-full h-100 overflow-hidden rounded-xl ">
                 <Image 
@@ -39,7 +39,7 @@ export default function CardProject({project}:{project:CardProjectInfo}) {
                     {project.technos.map((techno,index)=>{
 
                         return (
-                            <div key={index} className="flex items-center space-x-2 dark:bg-[var(--darker-background)] p-2 rounded-xl">
+                            <div key={index} className="flex items-center space-x-2  bg-[var(--darker-background)] p-2 rounded-xl">
                                 <Image 
                                     
                                     src={techno.image.src}
@@ -78,10 +78,10 @@ export default function CardProject({project}:{project:CardProjectInfo}) {
                         hover:shadow-xl
                         hover:-translate-y-0.5
                         active:translate-y-0 active:scale-95
-                        dark:bg-black
-                        dark:text-white
-                        dark:border-white/30
-                        dark:hover:bg-white/20
+                         bg-black
+                         text-white
+                         border-white/30
+                         hover:bg-white/20
                             " 
                         href={`/projects/${project.slug}`}
                     >

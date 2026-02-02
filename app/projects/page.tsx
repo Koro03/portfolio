@@ -17,9 +17,9 @@ export default function Project() {
   const personalProject:CardProjectInfo[] = cardProjects
 
   return (
-    <div className="flex flex-col min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+    <div className="flex flex-col min-h-screen items-center justify-center bg-zinc-50 font-sans  bg-black">
       <Header></Header>
-      <main className="flex flex-col min-h-screen w-full max-w-8xl flex-col items-center justify-between   bg-white dark:bg-black sm:items-start">
+      <main className="flex flex-col min-h-screen w-full max-w-8xl flex-col items-center justify-between   bg-white  bg-black sm:items-start">
 
         <div className="flex flex-col md:flex-row w-full items-stretch gap-6 text-center p-4 sm:text-left md:p-16"> 
           <div className="w-full max-w-sm flex">
@@ -36,11 +36,11 @@ export default function Project() {
           <div className="w-full">
 
           
-            <h1 className=" text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50 mb-4">
+            <h1 className=" text-3xl font-semibold leading-10 tracking-tight text-black  text-zinc-50 mb-4">
               Ma manière de travailler
             </h1>
             
-            <p className="w-full text-lg leading-8 text-zinc-600 dark:text-zinc-400">
+            <p className="w-full text-lg leading-8 text-zinc-600  text-zinc-400">
               <span className="font-semibold text-white">Mon travail</span> repose sur la recherche de <span className="font-semibold text-white">clarté</span> et <span className="font-semibold text-white">d’efficacité. </span>
               <span className="font-semibold text-white">Expérimenter</span> pour trouver les <span className="font-semibold text-white">solutions</span> les plus <span className="font-semibold text-white">pertinentes. </span>  
 
@@ -61,9 +61,9 @@ export default function Project() {
           </div>
 
         </div>
-        <div className="flex flex-col w-full gap-4 text-base font-medium  dark:bg-[var(--ligther-background)] dark:bg-black p-4 md:p-16">
+        <div className="flex flex-col w-full gap-4 text-base font-medium   bg-[var(--ligther-background)]  bg-black p-4 md:p-16">
           <div className="mb-4 py-8">
-            <h1 className=" text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50 ">Mes projets personelles</h1>
+            <h1 className=" text-3xl font-semibold leading-10 tracking-tight text-black  text-zinc-50 ">Mes projets personelles</h1>
             <div className="mt-4 h-px w-24 bg-gradient-to-r from-white/40 to-transparent" />
           </div>
 
@@ -114,7 +114,7 @@ export default function Project() {
         </div>
         <div className="flex flex-col gap-4 text-base font-medium  p-4 md:p-16">
           <div className="mb-4 py-8">
-            <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50 py-8">Mes projets d'études</h1>
+            <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black  text-zinc-50 py-8">Mes projets d'études</h1>
             <div className="mt-4 h-px w-24 bg-gradient-to-r from-white/40 to-transparent" />
           </div>
           <CarousselSchoolProjetcs></CarousselSchoolProjetcs>

@@ -25,9 +25,9 @@ export default function AboutMe() {
   const array: TimelineItemData[] = timelineItemData
 
   return (
-    <div className="flex-col min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+    <div className="flex-col min-h-screen items-center justify-center bg-zinc-50 font-sans bg-black">
       <Header></Header>
-      <main className="flex flex-col min-h-screen w-full max-w-8xl items-center justify-between   bg-white dark:bg-black sm:items-start">
+      <main className="flex flex-col min-h-screen w-full max-w-8xl items-center justify-between   bg-white bg-black sm:items-start">
         <div className="flex flex-col md:flex-row w-full items-stretch gap-6 text-center sm:text-left p-4 md:p-16">
           
           <div className="w-full max-w-sm flex">
@@ -45,10 +45,10 @@ export default function AboutMe() {
 
           <div className="w-full">
 
-            <h1 className=" text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50 mb-4">
+            <h1 className=" text-3xl font-semibold leading-10 tracking-tight text-black text-zinc-50 mb-4">
               About me
             </h1>
-            <p className="w-full text-lg leading-8 text-zinc-600 dark:text-zinc-400">
+            <p className="w-full text-lg leading-8 text-zinc-600 text-zinc-400">
               <span className="font-semibold text-white">Développeur Junior</span> de 20 ans, <span className="font-semibold text-white">avide de connaissances</span>.
               <br />
               Toujours <span className="font-semibold text-white">en quête de nouvelles compétences</span> et de <span className="font-semibold text-white">défis à relever</span>, j’aime apprendre en pratiquant et me confronter à des problématiques concrètes.
@@ -71,7 +71,7 @@ export default function AboutMe() {
         </div>
         <div className="w-full gap-4 text-base font-medium p-4 md:p-16">
           <div className="mb-4 py-8">
-            <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50 ">Mes Hobbies</h1>
+            <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black text-zinc-50 ">Mes Hobbies</h1>
             <div className="mt-4 h-px w-24 bg-gradient-to-r from-white/40 to-transparent" />
           </div>
           <div className="hidden md:grid grid-cols-3 grid-rows-3 gap-4 h-[700px]">
@@ -80,8 +80,8 @@ export default function AboutMe() {
                 col-span-2 row-span-1 rounded-xl 
                 overflow-hidden group shadow-xl 
                 border 
-                dark:border-white/30  
-                dark:bg-white/15"
+                 border-white/30  
+                 bg-white/15"
               >
               {/* Image */}
               <Image
@@ -151,8 +151,8 @@ export default function AboutMe() {
                 rounded-xl overflow-hidden group 
                 shadow-xl 
                 border 
-                dark:border-white/30  
-                dark:bg-white/15"
+                 border-white/30  
+                 bg-white/15"
             >
               <Image src={travel} fill className="object-cover" alt="" />
 
@@ -214,8 +214,8 @@ export default function AboutMe() {
                 col-span-1 row-span-2 
                 rounded-xl overflow-hidden group shadow-xl 
                 border 
-                dark:border-white/30  
-                dark:bg-white/15"
+                 border-white/30  
+                 bg-white/15"
             >
               <Image src={basketBall} fill className="object-cover" alt="" />
 
@@ -278,8 +278,8 @@ export default function AboutMe() {
                 row-span-1 rounded-xl 
                 overflow-hidden group shadow-xl 
                 border 
-                dark:border-white/30  
-                dark:bg-white/15"
+                 border-white/30  
+                 bg-white/15"
             >
               <Image src={sports} fill className="object-cover" alt="" />
 
@@ -342,8 +342,8 @@ export default function AboutMe() {
                 col-span-2 row-span-1 rounded-xl 
                 overflow-hidden group shadow-xl 
                 border 
-                dark:border-white/30  
-                dark:bg-white/15"
+                 border-white/30  
+                 bg-white/15"
             >
               {/* Image */}
               <Image
@@ -412,7 +412,7 @@ export default function AboutMe() {
         </div>
         <div className="w-full gap-4 text-base font-medium p-4 md:p-16">
           <div className="mb-4 py-8">
-            <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50 ">Mon parcours</h1>
+            <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black  text-zinc-50 ">Mon parcours</h1>
             <div className="mt-4 h-px w-24 bg-gradient-to-r from-white/40 to-transparent" />
           </div>
           <Timeline
@@ -424,7 +424,7 @@ export default function AboutMe() {
         
         <div className="w-full gap-4 text-base font-medium p-4 md:p-16">
           <div className="mb-4 py-8">
-            <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50 ">Mes Inspirations</h1>
+            <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black  text-zinc-50 ">Mes Inspirations</h1>
             <div className="mt-4 h-px w-24 bg-gradient-to-r from-white/40 to-transparent" />
           </div>
           <MagazineInspirations></MagazineInspirations>

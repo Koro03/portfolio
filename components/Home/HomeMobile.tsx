@@ -72,7 +72,7 @@ export default function HomeMobile() {
 
             <article className="py-4">
                 <div className="mb-4">
-                    <h1 className="md:hidden max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50 pt-4">Mon travail</h1>
+                    <h1 className="md:hidden max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black  text-zinc-50 pt-4">Mon travail</h1>
                     <div className="mt-4 h-px w-24 bg-gradient-to-r from-white/40 to-transparent" />
                 </div>
                 <section className="my-8">
@@ -116,7 +116,7 @@ export default function HomeMobile() {
 
             <article className="w-full py-4">
                 <div className="mb-4">
-                    <h1 className="md:hidden max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50 pt-4">à propos de moi</h1>
+                    <h1 className="md:hidden max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black  text-zinc-50 pt-4">à propos de moi</h1>
                     <div className="mt-4 h-px w-24 bg-gradient-to-r from-white/40 to-transparent" />
                 </div>
 

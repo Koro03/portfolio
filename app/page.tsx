@@ -32,7 +32,7 @@ export default function Home() {
 
     return (
 
-        <div className="relative min-h-screen font-sans dark:bg-black overflow-hidden">
+        <div className="relative min-h-screen font-sans bg-black overflow-hidden">
             <div className="pointer-events-none absolute inset-0 z-5">
                 <div
                     className="
