@@ -31,7 +31,8 @@ export default function AboutMe() {
         <div className="flex flex-col md:flex-row w-full items-stretch gap-6 text-center sm:text-left p-4 md:p-16">
           
           <div className="w-full max-w-sm flex">
-            <div className="relative w-full h-full min-h-[300px] overflow-hidden rounded-xl">
+            <div className="relative w-full h-full min-h-[300px] overflow-hidden rounded-xl ">
+              
               <Image
                 src={bf}
                 alt="Photo de profil"

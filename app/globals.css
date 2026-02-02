@@ -36,13 +36,13 @@ body {
 
 .parent {
   display: grid;
-  grid-template-columns: repeat(7, minmax(0, 1fr));
-  grid-template-rows: repeat(7, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-auto-rows: minmax(140px, auto);
   gap: 24px;
   width: 100%;
-  height: 80vh;
-}
+  min-height: auto;
 
+}
     
 .div1 {
   grid-column: span 2 / span 2;
@@ -70,38 +70,32 @@ body {
   grid-row-start: 2;
   background-color: var(--darker-background) ;
 }
-
 .div5 {
-  grid-column: span 3 / span 3;
+  grid-column: span 4 / span 4;
   grid-row: span 3 / span 3;
   grid-column-start: 3;
   grid-row-start: 3;
-  
 }
 
+
 .div6 {
-  grid-column: span 3 / span 3;
+  grid-column: span 4 / span 4;
   grid-row: span 2 / span 2;
   grid-column-start: 3;
   grid-row-start: 6;
   color: #999999 !important;
 }
 
+
 .div7 {
-  grid-column: span 3 / span 3;
+  grid-column: span 2 / span 2;
   grid-row: span 2 / span 2;
   grid-column-start: 5;
   grid-row-start: 1;
   color: #999999 !important;
 }
 
-.div8 {
-  grid-column: span 2 / span 2;
-  grid-row: span 5 / span 5;
-  grid-column-start: 6;
-  grid-row-start: 3;
-  background-color: var(--ligther-background) ;
-}
+
 
 .parent-2 {
   width: 100%;
@@ -153,14 +147,21 @@ body {
 }
 
         
-@keyframes infinite-scroll {
+@keyframes infinite-scroll-left {
   from { transform: translateX(0); }
   to   { transform: translateX(-100%); }
 }
+@keyframes infinite-scroll-right {
+  from { transform: translateX(-100%); }
+  to   { transform: translateX(0); }
+}
 
 @layer utilities {
-  .animate-infinite-scroll {
-    animation: infinite-scroll 25s linear infinite;
+  .animate-infinite-scroll-left {
+    animation: infinite-scroll-left 25s linear infinite;
+  }
+  .animate-infinite-scroll-right {
+    animation: infinite-scroll-right 25s linear infinite;
   }
 }
 
