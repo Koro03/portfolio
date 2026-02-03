@@ -61,7 +61,7 @@ export default function CardProject({project}:{project:CardProjectInfo}) {
                                 height={24}
                                 priority
                             />
-                            <p className="ml-2 ">{project.time}</p>
+                            <p className="ml-2 text-white">{project.time}</p>
                     </div>
                     <Link className="
                         inline-flex items-center justify-center
