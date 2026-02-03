@@ -29,9 +29,9 @@ export default async function ProjectPage({
   const project:PresentationProject | undefined = presentationProject.find((p) => p.slug === slug);  
 
   return (
-    <div className="flex-col min-h-screen items-center justify-center bg-zinc-50 font-sans  bg-black">
+    <div className="flex-col min-h-screen items-center justify-center font-sans  bg-black">
       <Header></Header>
-      <main className="flex flex-col min-h-screen w-full max-w-8xl items-center justify-between   bg-white  bg-black p-4 md:p-16">
+      <main className="flex flex-col min-h-screen w-full max-w-8xl items-center justify-between  bg-black p-4 md:p-16">
         
         { !project && <h1 className="text-4xl md:text-6xl font-semibold tracking-tight">
                     Aucun projet

@@ -87,7 +87,7 @@ export default function Project() {
                 <h2 className="text-2xl font-semibold mb-4">
                   À propos
                 </h2>
-                <p className="text-base leading-relaxed">
+                <p className="text-base leading-relaxed text-white">
                   La réalisation de projets m’a permis d’explorer librement des technologies et des idées qui m’intéressaient. 
                   Ils ont renforcé mon autonomie, ma curiosité et ma capacité à apprendre par moi-même. J’y ai développé le goût de l’expérimentation et de l’amélioration continue. 
                   Ces projets reflètent ma motivation et mon envie constante de progresser en dehors du cadre académique.

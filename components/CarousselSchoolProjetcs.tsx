@@ -27,7 +27,7 @@ export default function CarousselSchoolProjetcs() {
 
         <div className="flex flex-col md:flex-row gap-5 bg-black">
             <div className=" md:w-1/2 w-full">
-              <p>Les projets d’études ont été essentiels dans mon apprentissage de l’informatique. 
+              <p className="text-white">Les projets d’études ont été essentiels dans mon apprentissage de l’informatique. 
                 Ils m’ont permis de confronter la théorie à des problématiques concrètes et de développer une réelle capacité d’analyse. 
                 J’ai appris à structurer mon travail, à découper un problème complexe en étapes claires et à trouver des solutions adaptées. 
                 Ces projets m’ont aussi aidé à gagner en autonomie tout en comprenant l’importance du travail en équipe et de la communication. 

@@ -31,8 +31,8 @@ export default function CardProject({project}:{project:CardProjectInfo}) {
                 </Image>
             </div>
             <div className=" w-full ">
-                <p className="text-xl mt-4">{project.title}</p>                
-                <p className="mt-4">
+                <p className="text-xl mt-4 text-white">{project.title}</p>                
+                <p className="mt-4 text-white">
                     {project.summary}
                 </p>
                 <div className="flex flex-wrap gap-3 mt-4">
@@ -48,7 +48,7 @@ export default function CardProject({project}:{project:CardProjectInfo}) {
                                     height={techno.image.heigth}
                                     priority
                                 />
-                                <p className="ml-2">{techno.name}</p>
+                                <p className="ml-2 text-white">{techno.name}</p>
                         </div>)
                     })}
                 </div>

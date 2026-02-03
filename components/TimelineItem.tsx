@@ -77,11 +77,11 @@ export default function TimelineItem(
                                     </div>
 
                                     <div>
-                                        <h3 className="text-xl font-semibold">{children.title}</h3>
-                                        <p className="text-base opacity-70">{children.period}</p>
+                                        <h3 className="text-xl font-semibold text-white">{children.title}</h3>
+                                        <p className="text-base opacity-70 text-white">{children.period}</p>
                                         
                                         <p 
-                                            className={`my-4 mr-8 text-base md:text-lg overflow-hidden ${!isDesktop && !expanded ? "line-clamp-[5]" : ""}`}
+                                            className={`my-4 mr-8 text-base md:text-lg overflow-hidden text-white ${!isDesktop && !expanded ? "line-clamp-[5]" : ""}`}
                                         >
                                             {children.summary}
                                         </p>
