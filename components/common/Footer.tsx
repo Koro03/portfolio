@@ -50,7 +50,7 @@ export default function Footer() {
             >
               Me contacter
             </a>
-            <a href="../public/assets/files/CV_Benjamin_FAUCHET.pdf" download  className="
+            <a href="/assets/files/CV_Benjamin_FAUCHET.pdf" download className="
                 inline-flex items-center justify-center
                 rounded-full
                 px-6 py-3
