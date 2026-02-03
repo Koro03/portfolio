@@ -84,7 +84,7 @@ export default async function ProjectPage({
 
 
             <section className="px-6 md:px-16 py-16">
-              <h2 className="text-2xl font-semibold mb-6">Stack & Technologies</h2>
+              <h2 className="text-2xl font-semibold mb-6 text-white">Stack & Technologies</h2>
 
               <ul className="flex flex-wrap gap-3">
                 {project.technos.map((tech) => (
@@ -116,7 +116,7 @@ export default async function ProjectPage({
           
 
           <section className="px-6 md:px-16 py-16 bg-white/5">
-            <h2 className="text-2xl font-semibold mb-10">Fonctionnalités clés</h2>
+            <h2 className="text-2xl font-semibold mb-10 text-white">Fonctionnalités clés</h2>
 
             <div className="grid md:grid-cols-2 gap-8">
               {project.features.map((feature) => (
@@ -136,7 +136,7 @@ export default async function ProjectPage({
         </section>
 
           <section className="px-6 md:px-16 py-20">
-            <h2 className="text-2xl font-semibold mb-10">
+            <h2 className="text-2xl font-semibold mb-10 text-white">
               Apprentissages & Challenges
             </h2>
 

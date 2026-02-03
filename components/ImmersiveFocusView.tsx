@@ -124,7 +124,7 @@ export default function ImmersiveFocusView({
                 "
               >
 
-                <h2 className="text-3xl font-semibold">
+                <h2 className="text-3xl font-semibold text-white">
                   {children.title}
                 </h2>
 
@@ -138,7 +138,7 @@ export default function ImmersiveFocusView({
                   />
                 </div>}
 
-                <p className="mt-3 opacity-70">
+                <p className="mt-3 opacity-70 text-white">
                   {children.period}
                 </p>
 
