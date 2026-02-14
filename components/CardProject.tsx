@@ -4,11 +4,12 @@ import {
 } from "@/public/assets/images";
 import Link from "next/link";
 import { CardProjectInfo } from "@/types/project";
-
+import AuroraGradient from "./common/AuroraGradient";
 
 export default function CardProject({project}:{project:CardProjectInfo}) {
     return (
         <div className="
+            relative
             p-4 
             w-full 
             rounded-xl 
@@ -17,7 +18,9 @@ export default function CardProject({project}:{project:CardProjectInfo}) {
              border-white/30  
              bg-white/15 "
         >
-            <div className="relative w-full h-100 overflow-hidden rounded-xl ">
+            <AuroraGradient></AuroraGradient>
+            
+            <div className="relative w-full h-100 overflow-hidden rounded-xl z-10 ">
                 <Image 
                     src={project.mainImage.src}
                     alt={project.mainImage.alt ?? project.title}
@@ -27,7 +30,7 @@ export default function CardProject({project}:{project:CardProjectInfo}) {
                 >
                 </Image>
             </div>
-            <div className=" w-full ">
+            <div className=" w-full relative z-10">
                 <p className="text-xl mt-4 text-white">{project.title}</p>                
                 <p className="mt-4 text-white">
                     {project.summary}
