@@ -1,11 +1,11 @@
-export default function FooterLink({ label, href }: { label: string; href: string }) {
+export default function FooterLink({ label, href }: { label: string, href: string }) {
   return (
     <a
       href={href}
       className="
         group
-        inline-flex flex-col
-
+        flex flex-col
+        items-center
         transition-all duration-200
       "
     >

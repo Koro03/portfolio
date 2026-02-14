@@ -8,9 +8,6 @@ import { CardProjectInfo } from "@/types/project";
 
 export default function CardProject({project}:{project:CardProjectInfo}) {
     return (
-
-
-
         <div className="
             p-4 
             w-full 

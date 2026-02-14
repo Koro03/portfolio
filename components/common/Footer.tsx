@@ -30,7 +30,7 @@ export default function Footer() {
               Développement web, interfaces modernes et expériences sur mesure.
             </p>
           </div>
-          <div className="flex md:flex-col gap-4">
+          <div className="flex md:flex-col gap-4 w-full md:w-auto justify-center">
 
             <a
               href="mailto:benjamin.fauchet@yahoo.com"
