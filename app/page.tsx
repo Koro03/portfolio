@@ -27,6 +27,7 @@ import CaroussselHomeBento from "@/components/Home/CarousselHomeBento";
 import HomeMobile from "@/components/Home/HomeMobile";
 import HeroCTA from "@/components/Home/HeroCTA";
 import InfiniteSlider from "@/components/Home/InfiniteSlider";
+import AuroraGradient from "@/components/common/AuroraGradient";
 
 export default function Home() {
 
@@ -154,19 +155,10 @@ export default function Home() {
 
                         transition-all duration-300">
                             <div className="w-full flex flex-wrap  justify-between items-center">
-                                {/* aurora gradient layer */}
-                                <div className="absolute inset-0 opacity-60"
-                                    style={{
-                                        background: `
-                                        radial-gradient(circle at 30% 140%, rgba(46,230,166,.35), transparent 40%),
-                                        radial-gradient(circle at 60% 300%, rgba(90,160,255,.25), transparent 70%),
-                                        radial-gradient(circle at 50% -40%, rgba(180,120,255,.25), transparent 60%),
-                                        linear-gradient(transparent, rgba(13,10,25,.6))
-
-                                    `
-                                    }}
-                                />
-                                <a href="mailto:benjamin.fauchet@yahoo.com" className="hover:-translate-y-1 transition-all duration-300">
+                                
+                                <AuroraGradient></AuroraGradient>
+                                
+                                <a href="mailto:benjamin.fauchet@yahoo.com" className="hover:-translate-y-1 transition-all duration-300 z-100">
                                     <Image
                                         src={mail}
                                         alt="Mail to benjamin.fauchet@yahoo.com"
@@ -174,7 +166,7 @@ export default function Home() {
                                         height={48}
                                         priority>
                                     </Image></a>
-                                <a href="https:/www.linkedin.com/in/benjamin-fauchet-02a81b299" target="_blank" className="hover:-translate-y-1 transition-all duration-300" >
+                                <a href="https:/www.linkedin.com/in/benjamin-fauchet-02a81b299" target="_blank" className="hover:-translate-y-1 transition-all duration-300 z-100" >
                                     <Image
                                         src={linkedin}
                                         alt="Linkedin Benjamin Fauchet"
@@ -183,7 +175,7 @@ export default function Home() {
                                         priority>
                                     </Image>
                                 </a>
-                                <a href="https://github.com/Koro03" className="hover:-translate-y-1 transition-all duration-300" target="_blank">
+                                <a href="https://github.com/Koro03" className="hover:-translate-y-1 transition-all duration-300 z-100" target="_blank">
                                     <Image
                                         src={github}
                                         alt="Github Benjamin Fauchet | Koro03"
@@ -291,18 +283,7 @@ export default function Home() {
                         hidden md:block
                         content-center
                         transition-all duration-300">
-                            {/* aurora gradient layer */}
-                            <div className="absolute inset-0 opacity-60"
-                                style={{
-                                    background: `
-                                        radial-gradient(circle at 30% 140%, rgba(46,230,166,.35), transparent 40%),
-                                        radial-gradient(circle at 60% 300%, rgba(90,160,255,.25), transparent 70%),
-                                        radial-gradient(circle at 50% -40%, rgba(180,120,255,.25), transparent 60%),
-                                        linear-gradient(transparent, rgba(13,10,25,.6))
-
-                                    `
-                                }}
-                            />
+                            <AuroraGradient></AuroraGradient>
                             <InfiniteSlider left={true}></InfiniteSlider>
                             <InfiniteSlider left={false}></InfiniteSlider>
 

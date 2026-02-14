@@ -5,6 +5,7 @@ import ImmersiveFocusView from "./ImmersiveFocusView";
 import { AnimatePresence } from "motion/react";
 import Image from "next/image";
 import { TimelineItemData } from "@/types/timeline";
+import AuroraGradient from "./common/AuroraGradient";
 
 export default function TimelineItem(
   { index, children, isDesktop, activeIndex, setActiveIndex, }: 
@@ -56,11 +57,11 @@ export default function TimelineItem(
                             h-auto
                             overflow-hidden
                             md:m-4
-
-                            hover:shadow-[inset_0_0_0_1px_rgba(180,180,180,0.35)]
+                            inset-shadow
                             "
 
                     >
+                        <AuroraGradient></AuroraGradient>
                         
                        
                         <div className="flex justify-center my-6">
