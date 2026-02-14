@@ -20,6 +20,7 @@ import {
 } from "@/public/assets/images";
 import CaroussselHomeBento from "./CarousselHomeBento";
 import InfiniteSlider from "./InfiniteSlider";
+import AuroraGradient from "../common/AuroraGradient";
 
 export default function HomeMobile() {
 
@@ -38,19 +39,15 @@ export default function HomeMobile() {
                     priority
                     />
 
-<div
-  className="
-    pointer-events-none
-    absolute inset-0
-    bg-black/25
-    backdrop-blur-[4px]
-    [mask-image:linear-gradient(to_top,black_0%,black_40%,transparent_75%)]
-  "
-/>
-
-
-
-
+                    <div
+                    className="
+                        pointer-events-none
+                        absolute inset-0
+                        bg-black/25
+                        backdrop-blur-[4px]
+                        [mask-image:linear-gradient(to_top,black_0%,black_40%,transparent_75%)]
+                    "
+                    />
 
                     <div className="
                     absolute bottom-4 left-4 right-4
@@ -70,12 +67,12 @@ export default function HomeMobile() {
             </article>
 
 
-            <article className="py-4">
+            <article className="pt-10">
                 <div className="mb-4">
                     <h1 className="md:hidden max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black  text-zinc-50 pt-4">Mon travail</h1>
                     <div className="mt-4 h-px w-24 bg-gradient-to-r from-white/40 to-transparent" />
                 </div>
-                <section className="my-8">
+                <section className="my-10">
                     <h3 className="text-xl font-medium mb-4 text-white"> Ma manière de travailler</h3>
                     <div className="px-2">
 
@@ -94,7 +91,7 @@ export default function HomeMobile() {
                     <CaroussselHomeBento></CaroussselHomeBento>
                 </section>
 
-                <section className="my-8">
+                <section className="my-10">
                     <h3 className="text-xl font-medium mb-4 text-white"> Mon projet du moment</h3>
                     <div className="px-2">
 
@@ -112,22 +109,36 @@ export default function HomeMobile() {
             </article>
 
 
-            <InfiniteSlider left></InfiniteSlider>
+            <div className="rounded-xl py-2   
+                h-full 
+                overflow-hidden
+                        
+                bg-white/10
+                backdrop-blur-md
+                border border-white/15
+                shadow-lg shadow-black/10
 
-            <article className="w-full py-4">
+                content-center
+                transition-all duration-300">
+                <AuroraGradient></AuroraGradient>
+                <InfiniteSlider left={true}></InfiniteSlider>
+
+            </div>
+
+            <article className="w-full pt-10">
                 <div className="mb-4">
                     <h1 className="md:hidden max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black  text-zinc-50 pt-4">à propos de moi</h1>
                     <div className="mt-4 h-px w-24 bg-gradient-to-r from-white/40 to-transparent" />
                 </div>
 
-                <div className="py-4">
+                <div className="pt-4">
 
                     <h3 className="text-xl font-medium mb-4 text-white">
                         Mes inspirations
                     </h3>
                     <section className="div8 rounded-xl flex-col justify-center">
 
-                        <div id="seconde-grid" className="parent-2 p-4 min-h-80">
+                        <div id="seconde-grid" className="parent-2  min-h-80">
                             <div className="div1-2 rounded-xl relative overflow-hidden
                                     
                                 bg-white
@@ -213,21 +224,6 @@ export default function HomeMobile() {
                         </div>
                     </section>
                 </div>
-
-                <section className="p-4">
-
-                    <h3 className="text-xl font-medium mb-4 text-white">
-                        Mes Hobbies
-                    </h3>
-                    <ul className="space-y-3 text-white/70">
-                        {
-                            hobbies.map((learned, index) => {
-                                return <li key={index}>{learned}</li>
-                            })
-                        }
-
-                    </ul>
-                </section>
             </article>
 
         </div>
