@@ -62,7 +62,7 @@ export default function Header() {
                     </Link>
                 </nav>
 
-                <div className="hidden md:block w-[120px]" />
+                <div className="hidden md:block " />
             </div>
 
         </header>
