@@ -21,7 +21,7 @@ export default function Project() {
       <Header></Header>
       <main className="flex flex-col min-h-screen w-full max-w-8xl flex-col items-center justify-between    bg-black sm:items-start">
 
-        <div className="flex flex-col md:flex-row w-full items-stretch gap-6 text-center p-4 sm:text-left md:p-16 bg-black"> 
+        <div className="flex flex-col md:flex-row w-full items-stretch gap-6 p-4 sm:text-left md:p-16 bg-black"> 
           <div className="w-full max-w-sm flex">
             <div className="relative w-full h-full min-h-[300px] overflow-hidden rounded-xl">
               <Image
